@@ -1,0 +1,1437 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section Styles */
+.hero-section {
+    background: url(./images/hero.png) center/cover no-repeat; /* Add your background image URL */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px; /* Adjust the maximum width as needed */
+}
+
+.hero-heading {
+    color: #f2ca3a; /* Text color */
+    font-size: 36px; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Add margin between heading and paragraph */
+}
+
+.hero-paragraph {
+    color: #ffffff; /* Text color */
+    font-size: 18px; /* Adjust font size as needed */
+    margin-bottom: 30px; /* Add margin at the bottom */
+}
+
+.register-button {
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #ffcc00, #ff9900);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    transition: background 0.3s ease, transform 0.3s ease; /* Add smooth transitions */
+    text-decoration: none; /* Remove underline from the text */
+    display: inline-block; /* Ensure proper positioning */
+}
+
+.register-button:hover {
+    background: linear-gradient(135deg, #ff9900, #ffcc00);
+    transform: scale(1.1); /* Add a zoom-in effect on hover */
+    color: #fff;
+}
+
+    
+
+
+
+/* section 1 */
+
+.section-1 {
+    background: url('./images/depositphotos_99864270-stock-photo-finance-word-cloud.jpg') center/cover no-repeat;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background-color: white;
+    padding: 30px; /* Adjust the padding to decrease overall size */
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgb(246, 173, 36);
+    width: 350px; /* Adjust the width to decrease overall size */
+    transition: transform 0.3s ease; /* Add a smooth transition */
+}
+
+
+.form-container:hover {
+    transform: scale(1.05); /* Add a slight scale effect on hover */
+}
+
+h2 {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #ff9900;
+    font-size: 40px;
+    margin-bottom: 20px; /* Add some spacing between the heading and form */
+}
+
+.form-group {
+    margin-bottom: 15px;
+    transition: transform 0.3s ease; /* Add a smooth transition */
+}
+
+.form-group:hover {
+    transform: translateY(-5px); /* Increase size on the upward side on hover */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ff9900;
+}
+
+input,
+select {
+    width: calc(100% - 1px);
+    padding: 8px;
+    border: 1px solid #ff9900;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Add smooth transitions */
+}
+
+input:hover,
+select:hover,
+input:focus,
+select:focus {
+    border-color: #ffcc00; /* Change border color on hover or focus */
+    box-shadow: 0 0 20px rgba(255, 165, 0, 0.7); /* Increase shadow density on hover or focus */
+}
+
+
+.button1 {
+    width: 100%;
+    padding: 10px;
+    background: radial-gradient(circle, #ffcc00, #ff9900);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    transition: background 0.3s ease; /* Add a smooth transition for background color */
+}
+
+.button1:hover {
+    background: radial-gradient(circle, #ff9900, #ffcc00); /* Change background color on hover */
+}
+
+/* section 2 */
+
+
+/* Section styling */
+.image-sectionz {
+    background: #fff; /* White background */
+    padding-top: 90px; /* Adjust padding as needed */
+    text-align: center;
+}
+
+/* Section heading styling */
+.section-headingz {
+    color: #000000; /* Orange color for the heading */
+    font-size: 30px;
+}
+
+/* Image container styling */
+.image-containerz {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    justify-content: center;
+    gap: 25px; /* Adjust space between images */
+}
+
+/* Individual image styling */
+.image-itemz {
+    width: 140px; /* Adjust the width of each image container */
+    height: 150px; /* Adjust the height of each image container */
+}
+
+.image-itemz img {
+    width: 100%; /* Make the image fill its container */
+    height: 100%; /* Make the image fill its container */
+    object-fit: contain; /* Maintain aspect ratio and fit within the container */
+}
+
+/* Section 2 */
+
+
+.container {
+    max-width: 100%; /* Adjust the maximum width of the container */
+    padding-left: 20px; /* Add some left padding for better spacing */
+    padding-right: 20px; /* Add some right padding for better spacing */
+    padding-bottom: 70px;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+.featurette-heading {
+    font-family: 'Montserrat', sans-serif; /* Your preferred font */
+    font-weight: 700; /* Semi-bold for H3 */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-lg-6 {
+    flex: 0 0 48%; /* Adjust the width of each feature column */
+}
+
+.x img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add a border-radius for rounded corners */
+    margin-bottom: 15px; /* Adjust spacing between image and content */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add smooth transition */
+}
+
+.x img:hover {
+    transform: scale(1.05); /* Zoom in effect on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Adjust shadow properties */
+}
+
+
+.lead {
+    font-size: 20px;
+    transition: transform 0.3s ease; /* Add smooth transition for zoom effect */
+}
+
+.lead:hover {
+    transform: scale(1.04); /* Zoom in effect on hover */
+}
+
+.hoe {
+    color: #ff9900;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-bottom: 15px;
+    transition: transform 0.3s ease; /* Add smooth transition for zoom effect */
+}
+
+.hoe:hover {
+    transform: scale(1.03); /* Zoom in effect on hover */
+}
+
+
+        /* Section styling */
+/* Section styling */
+.grid-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Adjust space between grid boxes */
+    padding: 20px; /* Adjust padding as needed */
+    max-width: 100%; /* Adjust the maximum width of the container */
+   
+}
+
+/* Individual grid box styling */
+.grid-box {
+    flex: 1; /* Each box takes equal space */
+    min-width: calc(33.333% - 20px); /* Adjust the width for three boxes in a row */
+    background-color: #3498db; /* Change the color as needed */
+    border-radius: 15px; /* Round corners */
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center;
+    position: relative; /* For shadow effect */
+    overflow: hidden; /* For shadow effect */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition for zoom effect */
+}
+
+/* Shadow effect */
+.grid-box::before {
+    
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Adjust shadow properties */
+    border-radius: 15px; /* Round corners */
+    z-index: -1;
+}
+
+/* Gradient effect */
+.grid-box:hover {
+    background: linear-gradient(to bottom right, #069ab4, #2fe9d6); /* Adjust gradient colors */
+    transform: scale(1.05); /* Zoom in effect on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Adjust shadow properties */
+
+}
+
+/* Paragraph styling */
+.grid-box p {
+    color: #fff; /* Text color */
+    margin: 0; /* Remove default margin */
+    font-size: 25px;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .grid-box {
+        min-width: 100%; /* Each box takes full width on smaller screens */
+    }
+}
+
+/* Flex container styling */
+
+  /* START THE FEATURETTES3  */
+
+  .container {
+    max-width: 100%; /* Adjust the maximum width of the container */
+    padding-left: 20px; /* Add some left padding for better spacing */
+    padding-right: 20px; /* Add some right padding for better spacing */
+    padding-bottom: 70px;
+}
+
+/* h2 {
+    color: rgb(255, 255, 255);
+} */
+
+.featurette-heading {
+    font-family: 'Montserrat', sans-serif; /* Your preferred font */
+    font-weight: 700; /* Semi-bold for H3 */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-lg-6 {
+    flex: 0 0 48%; /* Adjust the width of each feature column */
+}
+
+.x1 video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add a border-radius for rounded corners */
+    margin-bottom: 15px; /* Adjust spacing between video and content */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add smooth transition */
+}
+
+.x1 video:hover {
+    transform: scale(1.05); /* Zoom in effect on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Adjust shadow properties */
+}
+
+
+
+.lead1 {
+    font-size: 20px;
+    transition: transform 0.3s ease; /* Add smooth transition for zoom effect */
+}
+
+.lead1:hover {
+    transform: scale(1.04); /* Zoom in effect on hover */
+}
+
+.hoe1 {
+    color: #ff9900;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-bottom: 15px;
+    transition: transform 0.3s ease; /* Add smooth transition for zoom effect */
+}
+
+.hoe1:hover {
+    transform: scale(1.03); /* Zoom in effect on hover */
+}
+
+.pb1 {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-bottom: 15px;
+    transition: transform 0.3s ease; /* Add smooth transition for zoom effect */
+}
+
+.pb1:hover {
+    transform: scale(1.03); /* Zoom in effect on hover */
+}
+
+
+.section-2 {
+    background: #ffffff;
+ /* Adjust padding as needed */
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+
+/* Section heading styling */
+
+
+/* Section 3 */
+.section-3 {
+    background: #ffffff;
+    padding-top: 60px ; /* Adjust padding as needed */
+}
+
+/* Section heading styling */
+/* Section heading styling */
+.section-heading3 {
+    color: #ffffff; /* Text color */
+    text-align: center;
+    font-size: 20px; /* Adjust font size as needed */
+    font-weight: 700; /* Make the text bold */
+    margin-bottom: 19px; /* Add margin between heading and content */
+    background: linear-gradient(45deg, #ffcc00, #ff9900); /* Yellow to orange gradient background */
+    padding: 10px 20px; /* Add padding to create a button-like appearance */
+    border-radius: 10px; /* Add rounded corners */
+    cursor: pointer; /* Add pointer cursor for better user interaction */
+    transition: background 0.3s ease, transform 0.3s ease; /* Add smooth transitions */
+    text-decoration: none;
+}
+
+/* Change background and add zoom-in effect on hover */
+.section-heading3:hover {
+    background: linear-gradient(45deg, #ff9900, #ffcc00); /* Orange to yellow gradient background */
+    transform: scale(1.08); /* Zoom in effect on hover */
+    color: #ffffff;
+
+}
+
+/* Image styling with subtle zoom effect */
+
+.section-container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+  /* START THE FEATURETTES3  */
+
+.container {
+    max-width: 100%; /* Adjust the maximum width of the container */
+    padding-left: 20px; /* Add some left padding for better spacing */
+    padding-right: 20px; /* Add some right padding for better spacing */
+    padding-bottom: 70px;
+}
+
+/* h2 {
+    color: rgb(255, 255, 255);
+} */
+
+.featurette-heading {
+    font-family: 'Montserrat', sans-serif; /* Your preferred font */
+    font-weight: 700; /* Semi-bold for H3 */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-lg-6 {
+    flex: 0 0 48%; /* Adjust the width of each feature column */
+}
+
+.x2 video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add a border-radius for rounded corners */
+    margin-bottom: 15px; /* Adjust spacing between video and content */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add smooth transition */
+}
+
+.x2 video:hover {
+    transform: scale(1.05); /* Zoom in effect on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Adjust shadow properties */
+}
+
+
+
+.lead2 {
+    font-size: 20px;
+    transition: transform 0.3s ease; /* Add smooth transition for zoom effect */
+}
+
+.lead2:hover {
+    transform: scale(1.04); /* Zoom in effect on hover */
+}
+
+.hoe2 {
+    color: #ff9900;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-bottom: 15px;
+    transition: transform 0.3s ease; /* Add smooth transition for zoom effect */
+}
+
+.hoe2:hover {
+    transform: scale(1.03); /* Zoom in effect on hover */
+}
+
+.pb2 {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-bottom: 15px;
+    transition: transform 0.3s ease; /* Add smooth transition for zoom effect */
+}
+
+.pb2:hover {
+    transform: scale(1.03); /* Zoom in effect on hover */
+}
+
+/* images section */
+
+.image-section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.section-heading {
+    font-size: 30px;
+    margin: 20px 0; /* Adjust margin for vertical alignment */
+    text-align: center; /* Center the text */
+    color: #000000;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-grid img {
+    width: calc(33.33% - 20px);
+    height: auto;
+    margin: 10px; /* Adjust spacing between images */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-grid img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Add this media query for smaller screens */
+@media (max-width: 768px) {
+    .image-grid img {
+        width: 100%; /* Set the width to 100% for smaller screens */
+        margin: 10px 0; /* Adjust spacing between images */
+    }
+}
+
+/* paragraph box */
+.orange-section {
+    background-color: #ff9900; /* Orange background color */
+    text-align: center;
+    padding: 20px; /* Padding inside the box */
+    margin: 20px; /* Margin outside the box for space */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Black shadow */
+    border-radius: 10px; /* Border radius for rounded corners */
+}
+
+.orange-heading {
+    color: #fff; /* White text color */
+    font-size: 24px; /* Adjust font size as needed */
+    margin: 0; /* Remove default margin */
+}
+
+
+
+
+
+
+/* Section 2 features 4*/
+
+
+.container {
+    max-width: 100%; /* Adjust the maximum width of the container */
+    padding-left: 20px; /* Add some left padding for better spacing */
+    padding-right: 20px; /* Add some right padding for better spacing */
+    padding-bottom: 70px;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+.featurette4-heading {
+    font-family: 'Montserrat', sans-serif; /* Your preferred font */
+    font-weight: 700; /* Semi-bold for H3 */
+}
+
+.row4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-lg-6 {
+    flex: 0 0 48%; /* Adjust the width of each feature column */
+}
+
+.x4 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add a border-radius for rounded corners */
+    margin-bottom: 15px; /* Adjust spacing between image and content */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add smooth transition */
+}
+
+.x4 img:hover {
+    transform: scale(1.05); /* Zoom in effect on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Adjust shadow properties */
+}
+
+
+.lead4 {
+    font-size: 20px;
+    transition: transform 0.3s ease; /* Add smooth transition for zoom effect */
+}
+
+.lead4:hover {
+    transform: scale(1.04); /* Zoom in effect on hover */
+}
+
+.hoe4 {
+    color: #ff9900;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-bottom: 15px;
+    transition: transform 0.3s ease; /* Add smooth transition for zoom effect */
+}
+
+.hoe4:hover {
+    transform: scale(1.03); /* Zoom in effect on hover */
+}
+
+
+
+/* delhi or surat */
+
+/* Grid container styling */
+.grid-container0 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Two boxes in a row, adjust minmax values as needed */
+    gap: 30px; /* Adjust space between boxes */
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* Individual grid box styling */
+.grid-box0 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff; /* White background color */
+    padding: 20px; /* Adjust padding as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    border-radius: 10px;
+}
+
+/* Image styling */
+.grid-box0 img {
+    width: 100%; /* Make the image fill the container */
+    height: auto;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    padding-bottom: 25px;
+}
+
+/* Anchor tag (button) styling */
+.button0 {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff9900; /* Orange background color */
+    color: #fff; /* White text color */
+    text-decoration: none;
+    border-radius: 5px; /* Add border-radius for rounded corners */
+}
+
+/* Hover effect on the button */
+.button0:hover {
+    background-color: #e08000; /* Darker orange on hover */
+    color: #fff; /* White text color */
+}
+
+/* features5 */
+.container {
+    max-width: 100%; /* Adjust the maximum width of the container */
+    padding-left: 20px; /* Add some left padding for better spacing */
+    padding-right: 20px; /* Add some right padding for better spacing */
+    padding-bottom: 70px;
+}
+
+/* h2 {
+    color: rgb(255, 255, 255);
+} */
+
+.featurette-heading {
+    font-family: 'Montserrat', sans-serif; /* Your preferred font */
+    font-weight: 700; /* Semi-bold for H3 */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-lg-6 {
+    flex: 0 0 48%; /* Adjust the width of each feature column */
+}
+
+.x5 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add a border-radius for rounded corners */
+    margin-bottom: 15px; /* Adjust spacing between video and content */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add smooth transition */
+}
+
+.x5 img:hover {
+    transform: scale(1.05); /* Zoom in effect on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Adjust shadow properties */
+}
+
+
+
+.lead5 {
+    font-size: 20px;
+    transition: transform 0.3s ease; /* Add smooth transition for zoom effect */
+}
+
+.lead5:hover {
+    transform: scale(1.04); /* Zoom in effect on hover */
+}
+
+.hoe5 {
+    color: #ff9900;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-bottom: 15px;
+    transition: transform 0.3s ease; /* Add smooth transition for zoom effect */
+}
+
+.hoe5:hover {
+    transform: scale(1.03); /* Zoom in effect on hover */
+}
+
+.pb5 {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-bottom: 15px;
+    transition: transform 0.3s ease; /* Add smooth transition for zoom effect */
+}
+
+.pb5:hover {
+    transform: scale(1.03); /* Zoom in effect on hover */
+}
+
+
+
+/* Section 6 */
+/* Section 6 */
+.section-6 {
+    background: #ffffff;
+    padding: 50px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+
+/* Section heading styling */
+/* Section heading styling */
+.section-heading6 {
+    color: #ff9900; /* Orange color for the heading */
+    text-align: center;
+    font-size: 34px; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Add margin between heading and content */
+    position: relative;
+    transition: transform 0.3s ease; /* Add a smooth transition */
+}
+
+.section-heading6:after {
+    content: '';
+    display: block;
+    width: 40px; /* Adjust the length of the line */
+    height: 2px; /* Adjust the thickness of the line */
+    background-color: #ff9900; /* Orange color for the line */
+    position: absolute;
+    bottom: -10px; /* Adjust the distance between the line and text */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-heading6:hover {
+    transform: scale(1.1); /* Zoom in effect on hover */
+}
+.video-container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; /* Allow videos to wrap to the next line on smaller screens */
+}
+
+.video-link {
+    width: 30%; /* Adjust the width of each video link */
+    margin-bottom: 20px; /* Add margin between videos */
+    text-decoration: none; /* Remove default link styling */
+}
+
+video {
+    width: 100%; /* Make the video fill its container */
+}
+
+/* Media query for smaller screens (adjust the breakpoint as needed) */
+@media (max-width: 768px) {
+    .video-container {
+        flex-direction: column; /* Stack videos in a single column on smaller screens */
+    }
+
+    .video-link {
+        width: 80%; /* Adjust the width of each video link for better spacing */
+    }
+}
+
+
+/* Section 7 */
+/* Section 7 */
+.section-7 {
+    background: #ffffff;
+    padding: 50px 0; /* Adjust padding as needed */
+}
+
+.client-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.client-image {
+    width: 150px;
+    height: 150px;
+    background: url('https://newsroompost.com/wp-content/uploads/2020/04/Dr-Vivek-Bindra-Bada-Business-founder-CEO.jpg') center/cover no-repeat;
+    border-radius: 50%; /* Circular shape */
+    margin-bottom: 20px;
+    transition: transform 0.3s ease; /* Add transition for zoom effect on hover */
+}
+
+.client-image:hover {
+    transform: scale(1.1); /* Zoom in effect on hover */
+}
+
+.client-info {
+    text-align: center;
+}
+
+.client-info h2 {
+    font-size: 18px;
+    color: #ff9900; /* Orange color */
+    transition: color 0.3s ease, transform 0.3s ease; /* Add transitions for color and zoom effect on hover */
+}
+
+.client-info h2:hover {
+    color: #ffcc00; /* Yellow color on hover */
+    transform: scale(1.05); /* Zoom in effect on hover */
+}
+
+.client-info h1 {
+    font-size: 36px;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease; /* Add transitions for color and zoom effect on hover */
+    color: #ff9900; /* Orange color on hover */
+    padding-bottom: 20px;
+}
+
+.client-info h1:hover {
+    
+    transform: scale(1.05); /* Zoom in effect on hover */
+}
+
+.client-info h3 {
+    font-size: 22px;
+    color: #ff9625; /* Dark gray color */
+    transition: color 0.3s ease, transform 0.3s ease; /* Add transitions for color and zoom effect on hover */
+    padding-top: 20px;
+}
+
+.client-info h3:hover {
+    color: #f3ad16; /* Slightly lighter gray on hover */
+    transform: scale(1.05); /* Zoom in effect on hover */
+}
+
+.client-info p {
+    font-size: 20px;
+    color: #333; /* Dark color for text */
+    margin-bottom: 15px;
+    transition: color 0.3s ease, transform 0.3s ease; /* Add transitions for color and zoom effect on hover */
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+
+.client-info p:hover {
+    color: #555; /* Darker gray on hover */
+    transform: scale(1.05); /* Zoom in effect on hover */
+}
+
+.read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #ffcc00, #ff9900); /* Yellow to Orange gradient */
+    border-radius: 15px; /* Circular corners */
+    color: white;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.3s ease; /* Add transitions for gradient and zoom effect on hover */
+}
+
+.read-more:hover {
+    background: linear-gradient(135deg, #ff9900, #ffcc00); /* Orange to Yellow gradient on hover */
+    transform: scale(1.05); /* Zoom in effect on hover */
+}
+
+
+/* Section 8 */
+/* Section 8 Heading Styling */
+
+.section-heading8 {
+    color: #ff9900; /* Orange color for the heading */
+    text-align: center;
+    font-size: 34px; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Add margin between heading and content */
+    position: relative;
+    transition: transform 0.3s ease; /* Add a smooth transition */
+    margin-bottom: 60px;
+}
+
+.section-heading8:after {
+    content: '';
+    display: block;
+    width: 40px; /* Adjust the length of the line */
+    height: 2px; /* Adjust the thickness of the line */
+    background-color: #ff9900; /* Orange color for the line */
+    position: absolute;
+    bottom: -10px; /* Adjust the distance between the line and text */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-heading8:hover {
+    transform: scale(1.1); /* Zoom in effect on hover */
+}
+.cards-wrapper{
+    display: flex;
+}
+
+
+.col-lg-4 {
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.col-lg-4 img {
+    margin-bottom: 10px; /* Add some space between image and heading */
+}
+
+.carousel-inner{
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.fw-normal{
+    font-size: 20px;
+    color: #f2ca3a;
+}
+
+
+/* For larger screens (greater than or equal to 567px) */
+@media (min-width: 567px) {
+    .col-lg-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+        transition: max-width 0.3s ease;
+    }
+}
+
+/* For smaller screens (less than 567px) */
+@media (max-width: 567px) {
+    .col-lg-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        transition: max-width 0.3s ease;
+    }
+}
+
+/* question answer */
+.faq-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.faq-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px; /* Add gap between FAQ items */
+    
+}
+
+.faq-item {
+    width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px; /* Increase padding for better spacing */
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.4);
+    position: relative;
+    transition: margin 0.3s ease, transform 0.3s ease; /* Add transition for margin and transform */
+}
+
+.question {
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px; /* Adjust margin for better spacing */
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease;
+}
+
+.answer {
+    display: none;
+}
+
+.faq-item:hover {
+    margin-bottom: 15px;
+    transform: scale(1.05); /* Zoom in effect on hover */
+}
+
+@media (max-width: 768px) {
+    .faq-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faq-item {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/* ending box */
+
+/* Add these styles for the new headings and button */
+
+.orange-section1 {
+    background-color: #ff9900; /* Orange background color */
+    text-align: center;
+    padding: 20px; /* Padding inside the box */
+    margin: 20px; /* Margin outside the box for space */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Black shadow */
+    border-radius: 10px; /* Border radius for rounded corners */
+    margin-bottom: 55px;
+}
+
+.orange-heading1 {
+    color: #fff; /* White text color */
+    font-size: 24px; /* Adjust font size as needed */
+    margin: 0; /* Remove default margin */
+}
+
+
+.orange-subheading1 {
+    color: #fff; /* White text color for subheading */
+    font-size: 18px; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Adjust margin for spacing */
+}
+
+.cta-button1 {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding for button size */
+    background-color: #fff; /* Button background color */
+    color: #ff9900; /* Button text color */
+    text-decoration: none; /* Remove underline for anchor tag */
+    border-radius: 5px; /* Border radius for rounded corners */
+    transition: background-color 0.3s ease; /* Add smooth transition for hover effect */
+}
+
+.cta-button1:hover {
+    background-color: #f5f5f5; /* Change background color on hover */
+}
+
+/* Add these styles for the new headings and button with zoom-in effect */
+.orange-subheading1,
+.orange-heading1,
+.cta-button1 {
+    transition: transform 0.3s ease; /* Add smooth transition for zoom effect */
+}
+
+.orange-subheading1:hover,
+.orange-heading1:hover,
+.cta-button1:hover {
+    transform: scale(1.05); /* Zoom in effect on hover */
+}
+
+
+
+
+/* Section 10 Styles */
+.section-10 {
+    background: rgb(18, 13, 0);
+    padding: 50px 0; /* Adjust padding as needed */
+}
+
+/* Contact container styling */
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Brand container styling */
+.brand-container {
+    width: 30%; /* Adjust width as needed */
+    text-align: center;
+}
+
+.brand-container img {
+    width: 100%; /* Make the image fill its container */
+    height: auto;
+    margin-bottom: 20px; /* Add space between image and text */
+}
+
+.brand-container p {
+    font-size: 14px;
+    color: #ffffff; /* Dark color for text */
+}
+
+/* Contact info container styling */
+.contact-info-container {
+    width: 30%; /* Adjust width as needed */
+    text-align: center;
+}
+
+.contact-info-container h2 {
+    color: #ff9900; /* Orange color for the heading */
+    font-size: 25px; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Add space between heading and links */
+}
+
+.contact-info-container a {
+    display: block;
+    font-size: 14px;
+    color: #ffffff; /* Dark color for text */
+    margin-bottom: 10px; /* Add space between links */
+}
+
+/* App store container styling */
+.app-store-container {
+    width: 30%; /* Adjust width as needed */
+    text-align: center;
+}
+
+.app-store-container h2 {
+    color: #ff9900; /* Orange color for the heading */
+    font-size: 25px; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Add space between heading and images */
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.app-store-container a img {
+    width: 100px; /* Adjust the width of the images */
+    height: auto;
+    margin-bottom: 10px; /* Add space between images */
+}
+
+
+
+
+/* Add this to your existing CSS */
+
+.contact-info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-detail {
+   
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-detail img {
+    width: 18px; /* Adjust the width of the icons as needed */
+    margin-right: 10px; /* Add space between the icon and text */
+    padding-bottom: 10px;
+}
+
+/* Media query for smaller screens (adjust the breakpoint as needed) */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column; /* Stack containers in a vertical column on smaller screens */
+        text-align: center; /* Center text on smaller screens */
+    }
+
+    .brand-container,
+    .contact-info-container,
+    .app-store-container {
+        width: 100%; /* Make containers take full width on smaller screens */
+        margin-bottom: 20px; /* Add space between containers */
+    }
+}
+
+/* Add this to your existing CSS for Section 10 */
+
+/* Glowing effect on images */
+/* Add this modification to your existing CSS for Section 10 */
+
+/* Zoom-in effect on images with permanent shadow */
+.brand-container img,
+.app-store-container a img {
+    transition: transform 0.3s ease, filter 0.3s ease; /* Add smooth transitions */
+    filter: drop-shadow(0 0 10px rgba(255, 165, 0, 0.7));
+}
+
+.brand-container img:hover,
+.app-store-container a img:hover {
+    transform: scale(1.1); /* Zoom in effect on hover */
+   
+}
+
+
+/* Hover effect on headings and links */
+.contact-info-container h2:hover,
+.app-store-container h2:hover,
+.contact-info-container a:hover,
+.app-store-container a:hover {
+    color: #ffcc00; /* Change color on hover */
+}
+
+/* Dynamic scaling effect on headings */
+.contact-info-container h2,
+.app-store-container h2 {
+    
+    transition: transform 0.3s ease; /* Add a smooth transition */
+}
+
+.contact-info-container h2:hover,
+.app-store-container h2:hover {
+    transform: scale(1.1); /* Zoom in effect on hover */
+}
+
+/* Dynamic scaling effect on links */
+.contact-info-container a,
+.app-store-container a {
+    transition: transform 0.3s ease; /* Add a smooth transition */
+    padding-left: 20px;
+}
+
+.contact-info-container a:hover,
+.app-store-container a:hover {
+    transform: scale(1.1); /* Zoom in effect on hover */
+}
+
+/* Media query for smaller screens (adjust the breakpoint as needed) */
+@media (max-width: 768px) {
+    .brand-container img,
+    .contact-info-container h2,
+    .contact-info-container a,
+    .app-store-container h2,
+    .app-store-container a {
+        transition: none; /* Remove transition on smaller screens for a smoother experience */
+    }
+}
+
+
+/* Footer Styles */
+.footer {
+    background: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Wrap items for smaller screens */
+}
+
+.footer-link,
+.footer-divider {
+    margin: 10px; /* Adjust margin as needed */
+}
+
+.footer-link a {
+    color: #fff; /* Link text color */
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease; /* Add smooth transition for hover effects */
+}
+
+.footer-link a:hover {
+    transform: scale(1.1); /* Increase size on hover */
+    color: #ff9900; /* Orange color on hover */
+    
+}
+
+.footer-divider {
+    height: 20px; /* Adjust the height of the vertical line */
+    width: 2px; /* Width of the vertical line */
+    background-color: #fff; /* Color of the vertical line */
+}
+
+.footer-bottom {
+    width: 100%; /* Take full width */
+     /* Adjust margin as needed */
+    animation: fadeInUp 1s ease; /* Add fade-in animation */
+}
+.footer-bottom:hover {
+    transform: scale(1.1); /* Increase size on hover */
+    color: #ff9900; /* Orange color on hover */
+    
+}
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply font styles to all headings */
+h1 {
+    font-family: 'Montserrat', sans-serif; /* Your preferred font */
+    font-weight: 900; /* Very bold for H1 */
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif; /* Your preferred font */
+    font-weight: 700; /* Bold for H2 */
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif; /* Your preferred font */
+    font-weight: 700; /* Semi-bold for H3 */
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif; /* Your preferred font */
+    font-weight: 400; /* Medium for H4 */
+}
+
+/* Apply font styles to all paragraphs */
+p {
+    font-family: 'Roboto', sans-serif; /* Your preferred font */
+    font-weight: 400; /* Regular weight for paragraphs */
+}
+
+/* Apply font styles to all anchor tags */
+a {
+    font-family: 'Lato', sans-serif; /* Your preferred font */
+    text-decoration: none; /* Remove default underline */
+    color: #0366d6; /* Your preferred link color */
+}
+
+/* Apply different styles to hovered anchor tags */
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #ff6600; /* Your preferred hover color */
+}
+
+
+/* Add this to your existing CSS */
+
+
+  /* Add this to your existing CSS */
+
+/* Opposite Logo styling */
+/* Updated CSS for Opposite Logo */
+
+.opposite-logo {
+    position: fixed;
+    bottom: 45px;
+    right: 17px;
+    z-index: 999; /* Ensure it's above other elements */
+    cursor: pointer;
+    animation: moveUpDown 2s infinite alternate; /* Continuous up and down animation */
+}
+
+.opposite-logo img {
+    width: 60px; /* Adjust the width as needed */
+    height: auto;
+    transition: transform 0.3s ease; /* Add a smooth transition on hover */
+}
+
+.opposite-logo:hover {
+    transform: scale(1.1); /* Zoom in effect on hover */
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px); /* Adjust the distance it moves up and down */
+    }
+}
+
+  
